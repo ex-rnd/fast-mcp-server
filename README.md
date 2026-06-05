@@ -5,7 +5,7 @@ This project demonstrates real authentication, scoped authorization, dynamic cli
 ## ✳️ Visual Overview 
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/317af18d-c6d3-44ff-960a-3af27c7c760a" width="400" />
+  <video src="https://github.com/user-attachments/assets/03baa458-de5d-4d88-b590-786ef996d6c1" width="400" />
 </div>
 
 
