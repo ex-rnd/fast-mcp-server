@@ -1,3 +1,7 @@
+
+
+
+
 # 🔐 Scalable Descope MCP Server — Next.js 16 + Secure Agentic Identity 
 A full‑stack reference implementation showing how to build secure AI agents using Descope’s Agentic Identity Hub, Next.js 16, and a fully scoped MCP (Model Context Protocol) Server.
 This project demonstrates real authentication, scoped authorization, dynamic client registration, and audit‑grade observability for AI tools. 
@@ -107,7 +111,7 @@ npm run dev
 ### Example: Dynamic Client Registration (DCR).
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/f190dd84-f459-4932-9853-fd107368817f" width="400" />
+  <video src="https://github.com/user-attachments/assets/f3565e5e-74cd-4a59-af2b-da0296ee18c8" width="400" />
 </div>
 
 ```
