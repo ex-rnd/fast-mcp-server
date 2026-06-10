@@ -12,10 +12,10 @@ This project demonstrates real authentication, scoped authorization, dynamic cli
 ## 📹 Demo
 1. Before running the app, ensure your Descope project is configured correctly. 
 ```
-> Set NEXT_PUBLIC_DESCOPE_PROJECT_ID from Descope Project Settings
-> Create a Management Key in Company Settings → Management Keys
-> Generate MCP_SERVICE_KEY using: openssl rand -hex 32
-> (Optional) Create an Outbound App for GitHub issues
+> 1. Set NEXT_PUBLIC_DESCOPE_PROJECT_ID from Descope Project Settings
+> 2. Create a Management Key in Company Settings → Management Keys
+> 3. Generate MCP_SERVICE_KEY using: openssl rand - hex 32
+> 4. (Optional) Create an Outbound App for GitHub issues
 ```
 
 2. Run the Next.js app
@@ -30,11 +30,11 @@ http://localhost:3000
 ```
 
 4. In the app
-> Sign up or sign in using Descope
-> Register an MCP client via Dynamic Client Registration
-> Exchange access key → scoped JWT
-> Call any of the 6 MCP tools
-> View audit logs in Descope dashboard
+> 1. Sign up or sign in using Descope
+> 2. Register an MCP client via Dynamic Client Registration
+> 3. Exchange access key → scoped JWT
+> 4. Call any of the 6 MCP tools
+> 5. View audit logs in Descope dashboard
 
 
 ## 🔍 Project Overview
@@ -52,16 +52,13 @@ A complete secure agent lifecycle:
 
 
 ### The 3 API routes
-```
 | Route | Purpose |
 | --- | --- |
 | ``app/api/auth/route.ts`` | DCR registration, token exchange, introspection, audit events |
 | ``app/api/auth/validate-session/route.ts`` | Validates browser session JWT |
 | ``app/api/mcp/route.ts`` | MCP Tool Server — scope‑based authorization |
-```
 
 ### The 6 MCP tools (scope‑gated)
-```
 | Tool | Required Scope |
 | --- | --- |
 | ``list_tables`` | ``mcp:read`` |
@@ -70,7 +67,6 @@ A complete secure agent lifecycle:
 | ``delete_record`` | ``mcp:admin`` |
 | ``run_query`` | ``mcp:admin`` |
 | ``fetch_github_issues`` | ``mcp:connections`` |
-```
 
 
 ## 🛠️ Getting Started
