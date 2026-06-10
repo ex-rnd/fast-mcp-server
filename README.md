@@ -153,26 +153,26 @@ POST /api/mcp
 
 ## 📁 File overview (important files)
 
-- `app/api/auth/route.ts`
+#### `app/api/auth/route.ts`
 - Dynamic Client Registration
 - Access key → JWT exchange
 - Token introspection
 - Audit event creation
 
 
-- `app/api/mcp/route.ts`
+#### `app/api/mcp/route.ts`
 - MCP tool server
 - Scope‑based authorization
 - Executes 6 tools against JSON DB
 
-- `lib/mcpDcrStore.ts`
+#### `lib/mcpDcrStore.ts`
 - In‑memory DCR store
 - Maps registered clients → granted scopes
 
-- `data/db.json`
+#### `data/db.json`
 - Mock dataset for read/insert/delete/query tools
 
-- `mcp_client.py` / `mcp_server.py`
+#### `mcp_client.py` / `mcp_server.py`
 - Optional Python FastMCP client/server
 - Demonstrates real DCR + token exchange + tool execution
 
